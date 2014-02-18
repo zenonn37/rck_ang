@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html ng-app='Rck'>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,500,600,700' rel='stylesheet' type='text/css'>
+
+
+    <script src="//ajax.googleapis.com/ajax/libs/angularjs/1.2.7/angular.min.js"></script>
+    <script src="//cdn.firebase.com/js/client/1.0.3/firebase.js"></script>
+    <script src="//cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
+    <script src="js/angular-animate.js"></script>
+    <script src="js/angular-route-min.js"></script>
+    <script src="js/apps.js"></script>
+    <script src="js/controllers.js"></script>
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+
+
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+    <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<header>
+
+
+
+    <nav class="navbar navbar-default  navbar-fixed-top" role="navigation">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="container">
+            <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+                <a class="navbar-brand" href="#"><img src="image/logo.png"></a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li><a href="#/home">Home</a></li>
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#/home">Racing</a></li>
+                            <li><a href="#/home">Shop</a></li>
+                            <li><a href="#/home">Comp</a></li>
+                            <li><a href="#/home">Events</a></li>
+
+
+                        </ul>
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Company<b class="caret"></b></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#" data-toggle="modal" data-target="#myModal3">Hours</a></li>
+                            <li><a href="#/home">About Us</a></li>
+                            <li><a href="#/home">Gallary</a></li>
+
+
+
+
+
+                        </ul>
+                     <li><a href="#/home">Schedule</a></li>
+
+                    <li><a href="#" data-toggle="modal" data-target="#myModal2">Rates</a></li>
+                    <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
+
+
+
+                </ul>
+
+
+            </div>
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="trim"></div>
+</header>
+<main role="main">
+    <div ng-view=""></div>
+</main>
+<div class="footer">
+    <div class="container">
+
+
+
+
+        <div class="col-md-3">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="titlesServices">Navigation</h4>
+
+                    <ul class="list-unstyled">
+                        <li> <%=link_to 'Home', root_url%></li>
+
+
+                        <li><a href="#" data-toggle="modal" data-target="#myModal2">Rates</a></li>
+
+
+
+                        <li><%=link_to 'Schedule',pages_schedule_path%></li>
+                        <li><a href="#">SiteMap</a></li>
+
+                        <li><a href="#" data-toggle="modal" data-target="#myModal">Contact</a></li>
+                    </ul>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <div class="col-md-3">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="titlesServices">Services</h4>
+
+                    <ul class="list-unstyled">
+                        <li><%=link_to 'Racing', pages_road_path%></li>
+                        <li><%=link_to 'Pro Shop', pages_hobby_path%></li>
+                        <li><%=link_to 'Competitions', pages_competition_path%></li>
+                        <li><%=link_to 'Partys', pages_partys_path%></li>
+
+
+
+
+
+
+                    </ul>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <div class="col-md-3">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="titlesServices">Company</h4>
+
+                    <ul class="list-unstyled">
+                        <li>  <%=link_to 'About Us', pages_about_path%></li>
+                        <li><a href="#" data-toggle="modal" data-target="#myModal3">Hours</a></li>
+                        <li><a href="#">Videos</a></li>
+                        <li><a href="#">Photos</a></li>
+
+                    </ul>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+        <div class="col-md-3">
+
+            <div class="panel panel-default">
+                <div class="panel-body">
+                    <h4 class="titlesServices">Location</h4>
+
+                    <address>
+                        <strong>RC Kinetics</strong><br>
+                        2739 6th Ave<br>
+                        Troy NY, 12180<br>
+                        <abbr title="Phone">P:</abbr> (518) 456-7890
+                    </address>
+
+
+
+
+
+                </div>
+            </div>
+
+
+
+
+
+
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+    <!--hero last end-->
+
+</div>
+<footer>
+    <div class="container">
+
+        <div class="col-md-6">
+            <h6>&copy;copyright 2014 RC Kinetics</h6>
+        </div>
+
+
+        <div class="col-md-6">
+            <div class="pull-right">
+                <a href="https://www.facebook.com/rckinetics">    <%=image_tag "facebook_icon.png"%></a>
+                <a href="https://www.facebook.com/rckinetics">    <%=image_tag "twitter_icon.png"%></a>
+                <a href="https://www.facebook.com/rckinetics">    <%=image_tag "google_icon.png"%></a>
+                <a href="https://www.facebook.com/rckinetics">    <%=image_tag "youtube_icon.png"%></a>
+
+            </div>
+
+        </div>
+
+
+
+
+
+
+    </div>
+
+</footer>
+
+
+
+
+<!-- contact model -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Contact Us</h4>
+            </div>
+            <div class="modal-body">
+                <form class="form-horizontal" role="form">
+                    <div class="form-group">
+                        <label for="inputName" class="col-sm-2 control-label">Name</label>
+                        <div class="col-sm-10">
+                            <input type="name" class="form-control" id="inputName" placeholder="Name">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="inputEmail3" class="col-sm-2 control-label">Email</label>
+                        <div class="col-sm-10">
+                            <input type="email" class="form-control" id="inputEmail3" placeholder="Email">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="textMessage" class="col-sm-2 control-label">Inquiry</label>
+                        <div class="col-sm-10">
+                            <textarea class="form-control" rows="3"  placeholder="Inquiry"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-default">Submit</button>
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+
+
+
+
+
+<!-- rates model -->
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">Rates</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <tr>
+                        <th>Services</th>
+                        <th>Price</th>
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Practice</td>
+                        <td>10.00</td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Racing Competitions</td>
+                        <td>20.00</td>
+
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Partys</td>
+                        <td>100.00</td>
+
+
+                    </tr>
+
+
+
+
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+
+
+
+
+
+
+<!-- hours model -->
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                <h4 class="modal-title" id="myModalLabel">RCK Hours</h4>
+            </div>
+            <div class="modal-body">
+                <table class="table">
+                    <tr>
+                        <th>Days</th>
+                        <th>Hours</th>
+                    </tr>
+
+                    <tr>
+
+                        <td>Monday</td>
+                        <td>Closed</td>
+
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Tuesday</td>
+                        <td>Closed</td>
+
+
+                    </tr>
+
+                    <tr>
+
+                        <td>Wednesday</td>
+                        <td>11am to 11pm</td>
+
+
+                    </tr>
+
+
+
+                    <tr>
+
+                        <td>Thursday</td>
+                        <td>11am to 11pm</td>
+
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Friday</td>
+                        <td>11am to 11pm</td>
+
+
+                    </tr>
+
+
+                    <tr>
+
+                        <td>Saturday</td>
+                        <td>11am to 11pm</td>
+
+
+                    </tr>
+
+
+
+                    <tr>
+
+                        <td>Sunday</td>
+                        <td>11am to 6pm</td>
+
+
+                    </tr>
+
+
+                </table>
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+
+            </div>
+        </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+</div><!-- /.modal -->
+</body>
+</html>
