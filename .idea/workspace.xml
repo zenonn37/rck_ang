@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/comp.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/company-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/contact-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/gallery.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/racing.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/schedule-controller.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/schedule.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/shop.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/sitemap.html" />
-      <change type="MOVED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\controllers.js" afterPath="$PROJECT_DIR$/js/pages-controller.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/apps.js" afterPath="$PROJECT_DIR$/js/apps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/image/arrow_icon_16.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/about.html" afterPath="$PROJECT_DIR$/views/about.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/comp.html" afterPath="$PROJECT_DIR$/views/comp.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/events.html" afterPath="$PROJECT_DIR$/views/events.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/home.html" afterPath="$PROJECT_DIR$/views/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pages.html" afterPath="$PROJECT_DIR$/pages.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/racing.html" afterPath="$PROJECT_DIR$/views/racing.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/schedule.html" afterPath="$PROJECT_DIR$/views/schedule.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/views/shop.html" afterPath="$PROJECT_DIR$/views/shop.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rck.iws" />
@@ -48,10 +43,64 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pages.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pages.html">
+      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="133" column="27" selection-start="4482" selection-end="4482" vertical-scroll-proportion="-0.5855856" vertical-offset="3978" max-vertical-offset="13338">
+            <state line="10" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="1820">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="racing.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/racing.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="3432">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/views/home.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="121" column="0" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.38628572" vertical-offset="2808" max-vertical-offset="6786">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="comp.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/comp.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="103" column="0" selection-start="1787" selection-end="1787" vertical-scroll-proportion="-7.542857" vertical-offset="2414" max-vertical-offset="3406">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/events.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="99" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-4.571429" vertical-offset="2414" max-vertical-offset="3406">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/shop.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="66" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-10.142858" vertical-offset="1361" max-vertical-offset="3562">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schedule.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/schedule.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="14" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="-10.4" vertical-offset="0" max-vertical-offset="3458">
               <folding />
             </state>
           </provider>
@@ -62,17 +111,6 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="182">
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apps.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/apps.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="17" selection-start="608" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="2574">
-              <folding>
-                <element signature="e#0#38#0" expanded="false" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -101,15 +139,8 @@
       <list>
         <option value="$PROJECT_DIR$/partials/nav.html" />
         <option value="$PROJECT_DIR$/js/controllers.js" />
-        <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
-        <option value="$PROJECT_DIR$/views/racing.html" />
-        <option value="$PROJECT_DIR$/views/shop.html" />
-        <option value="$PROJECT_DIR$/views/comp.html" />
-        <option value="$PROJECT_DIR$/views/events.html" />
-        <option value="$PROJECT_DIR$/views/about.html" />
         <option value="$PROJECT_DIR$/views/gallery.html" />
-        <option value="$PROJECT_DIR$/views/schedule.html" />
         <option value="$PROJECT_DIR$/views/sitemap.html" />
         <option value="$PROJECT_DIR$/js/pages-controller.js" />
         <option value="$PROJECT_DIR$/js/company-controller.js" />
@@ -117,6 +148,13 @@
         <option value="$PROJECT_DIR$/js/apps.js" />
         <option value="$PROJECT_DIR$/js/schedule-controller.js" />
         <option value="$PROJECT_DIR$/pages.html" />
+        <option value="$PROJECT_DIR$/views/about.html" />
+        <option value="$PROJECT_DIR$/views/racing.html" />
+        <option value="$PROJECT_DIR$/views/comp.html" />
+        <option value="$PROJECT_DIR$/views/events.html" />
+        <option value="$PROJECT_DIR$/views/shop.html" />
+        <option value="$PROJECT_DIR$/views/schedule.html" />
+        <option value="$PROJECT_DIR$/views/home.html" />
       </list>
     </option>
   </component>
@@ -199,6 +237,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck_ang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="image" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -209,6 +261,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\pure coder\WebstormProjects\rck_ang\image" />
       <recent name="C:\Users\Ruby\WebstormProjects\app\rck\js" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -392,49 +445,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/racing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/comp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/views/gallery.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/schedule.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
           <folding />
@@ -451,13 +462,6 @@
     <entry file="file://$PROJECT_DIR$/js/pages-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="4" column="21" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="246" column="0" selection-start="5852" selection-end="5852" vertical-scroll-proportion="7.3097143" vertical-offset="0" max-vertical-offset="7072">
           <folding />
         </state>
       </provider>
@@ -483,18 +487,67 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="245" column="0" selection-start="6261" selection-end="6261" vertical-scroll-proportion="-49.885715" vertical-offset="4624" max-vertical-offset="13130">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/about.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="1820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/racing.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="3432">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/comp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="103" column="0" selection-start="1787" selection-end="1787" vertical-scroll-proportion="-7.542857" vertical-offset="2414" max-vertical-offset="3406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="99" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-4.571429" vertical-offset="2414" max-vertical-offset="3406">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/shop.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="66" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-10.142858" vertical-offset="1361" max-vertical-offset="3562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/schedule.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="-10.4" vertical-offset="0" max-vertical-offset="3458">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/apps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="608" selection-end="620" vertical-scroll-proportion="0.0" vertical-offset="546" max-vertical-offset="2574">
+        <state line="37" column="17" selection-start="608" selection-end="620" vertical-scroll-proportion="0.5633803" vertical-offset="390" max-vertical-offset="2574">
           <folding>
             <element signature="e#0#38#0" expanded="false" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages.html">
+    <entry file="file://$PROJECT_DIR$/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="133" column="27" selection-start="4482" selection-end="4482" vertical-scroll-proportion="-0.5855856" vertical-offset="3978" max-vertical-offset="13338">
+        <state line="121" column="0" selection-start="2413" selection-end="2413" vertical-scroll-proportion="0.38628572" vertical-offset="2808" max-vertical-offset="6786">
           <folding />
         </state>
       </provider>
