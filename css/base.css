@@ -61,6 +61,13 @@ a:hover, a:focus{
 
 }
 
+.container-fluid {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 0;
+    padding-right: 0;
+}
+
 
 
 
@@ -288,7 +295,7 @@ nav .navbar-nav{
 
 .jumbotron{
 
-    background: #fff url(image/super_hero.jpg) 50% 50% no-repeat;
+    background: #fff url(image/mast_hero.png) no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -498,9 +505,9 @@ nav .navbar-nav{
 
 .hero3{
 
-    background:#fff url(kit_hero.png) 50% 50% no-repeat;
+    background:#fff url(image/hero_3.png) 50% 50% no-repeat;
     background-size:cover;
-    height:500px;
+    height:400px;
 
 
 }
@@ -609,10 +616,10 @@ nav .navbar-nav{
 
 
 .hero_last{
-    height:250px;
 
-    background: #2c3e50 url(hero4.png) 50% 50% no-repeat;
-    max-height:250px;
+    min-height: 300px;
+    background: #2c3e50 url(image/ready.png) 50% 50% no-repeat;
+    max-height:400px;
     background-size:cover;
 
 }
