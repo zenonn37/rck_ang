@@ -2,7 +2,82 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/image/arrow_icon_16.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/glyphicons-halflings-regular.eot" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/glyphicons-halflings-regular.ttf" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/glyphicons-halflings-regular.woff" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/image/hero_3.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/image/logo.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/image/mast_hero.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/image/racing_f.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/image/ready.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/image/super_hero.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/angular-animate.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/angular-route-min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/apps.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/base.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/bootstrap-theme.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/bootstrap-theme.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/bootstrap-theme.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/bootstrap.css.map" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/bootstrap.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/bootstrap.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/css/bootstrap.min.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/bootstrap.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/comp.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/company-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/contact-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/events.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/gallery.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/fonts/glyphicons-halflings-regular.svg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/partials/nav.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/pages-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/racing.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/js/schedule-controller.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/schedule.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/shop.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/sitemap.html" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\base.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\image\hero_3.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\image\mast_hero.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\image\racing_f.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\image\ready.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\css\image\super_hero.jpg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\fonts\glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\fonts\glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\fonts\glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\fonts\glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\image\arrow_icon_16.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\image\logo.png" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\angular-animate.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\angular-route-min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\apps.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\company-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\contact-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\pages-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\js\schedule-controller.js" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\pages.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\partials\nav.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\about.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\comp.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\events.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\gallery.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\home.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\racing.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\schedule.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\shop.html" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\pure coder\WebstormProjects\rck_ang\views\sitemap.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rck.iws" />
@@ -26,82 +101,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/css/base.css">
+      <file leaf-file-name="firebase.json" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/firebase.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="624" column="1" selection-start="6955" selection-end="6955" vertical-scroll-proportion="0.0" vertical-offset="15973" max-vertical-offset="26676">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="260">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="company-controller.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/company-controller.js">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="182">
+            <state line="68" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="0.50514287" vertical-offset="1326" max-vertical-offset="13156">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/about.html">
+      <file leaf-file-name="apps.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/apps.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="1820">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2626">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/views/home.html">
+      <file leaf-file-name="pages-controller.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/js/pages-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="192" column="43" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.3622857" vertical-offset="4675" max-vertical-offset="6786">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="racing.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/racing.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="3432">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="comp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/comp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="103" column="0" selection-start="1787" selection-end="1787" vertical-scroll-proportion="-7.542857" vertical-offset="2414" max-vertical-offset="3406">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/events.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-4.571429" vertical-offset="2414" max-vertical-offset="3406">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="shop.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/shop.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="66" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-10.142858" vertical-offset="1361" max-vertical-offset="3562">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="schedule.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/schedule.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="-10.4" vertical-offset="0" max-vertical-offset="3458">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
               <folding />
             </state>
           </provider>
@@ -136,8 +166,9 @@
         <option value="$PROJECT_DIR$/views/events.html" />
         <option value="$PROJECT_DIR$/views/shop.html" />
         <option value="$PROJECT_DIR$/views/schedule.html" />
-        <option value="$PROJECT_DIR$/views/home.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
+        <option value="$PROJECT_DIR$/views/home.html" />
+        <option value="$PROJECT_DIR$/app/index.html" />
       </list>
     </option>
   </component>
@@ -202,7 +233,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="views" />
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -213,56 +244,32 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="rck_ang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="partials" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck_ang" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="js" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rck_ang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rck_ang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rck" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rck_ang" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="image" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -398,172 +405,30 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/css/base.css">
+    <entry file="file://$PROJECT_DIR$/firebase.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="290" column="31" selection-start="3355" selection-end="3355" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="26494">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="888">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages.html">
+    <entry file="file://$PROJECT_DIR$/app/js/apps.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="78" column="50" selection-start="3315" selection-end="3315" vertical-scroll-proportion="0.0" vertical-offset="2028" max-vertical-offset="13260">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2626">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/js/pages-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="3" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="261" column="6" selection-start="6085" selection-end="6085" vertical-scroll-proportion="0.0" vertical-offset="6786" max-vertical-offset="7072">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/apps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="156" max-vertical-offset="1118">
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular-animate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36140">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/angular-animate.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="36088">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/partials/nav.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="43" selection-end="43" vertical-scroll-proportion="0.038235296" vertical-offset="0" max-vertical-offset="1898" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/gallery.html">
+    <entry file="file://$PROJECT_DIR$/app/js/pages-controller.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/views/sitemap.html">
+    <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/pages-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="21" selection-start="61" selection-end="61" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="442">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/apps.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="17" selection-start="608" selection-end="620" vertical-scroll-proportion="0.5633803" vertical-offset="390" max-vertical-offset="2574">
-          <folding>
-            <element signature="e#0#38#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="245" column="0" selection-start="6261" selection-end="6261" vertical-scroll-proportion="2.2297297" vertical-offset="4390" max-vertical-offset="13130">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/company-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/schedule-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/contact-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="923">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/schedule.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="28" selection-start="242" selection-end="242" vertical-scroll-proportion="-10.4" vertical-offset="0" max-vertical-offset="3458">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/about.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="299" selection-end="299" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="1820">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/racing.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="10" selection-start="239" selection-end="239" vertical-scroll-proportion="-7.428571" vertical-offset="0" max-vertical-offset="3432">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/comp.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="103" column="0" selection-start="1787" selection-end="1787" vertical-scroll-proportion="-7.542857" vertical-offset="2414" max-vertical-offset="3406">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="1814" selection-end="1814" vertical-scroll-proportion="-4.571429" vertical-offset="2414" max-vertical-offset="3406">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/shop.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="66" column="0" selection-start="1481" selection-end="1481" vertical-scroll-proportion="-10.142858" vertical-offset="1361" max-vertical-offset="3562">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="624" column="1" selection-start="6955" selection-end="6955" vertical-scroll-proportion="0.0" vertical-offset="15973" max-vertical-offset="26676">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/views/home.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="192" column="43" selection-start="3008" selection-end="3008" vertical-scroll-proportion="0.3622857" vertical-offset="4675" max-vertical-offset="6786">
+        <state line="68" column="0" selection-start="2977" selection-end="2977" vertical-scroll-proportion="0.50514287" vertical-offset="1326" max-vertical-offset="13156">
           <folding />
         </state>
       </provider>
