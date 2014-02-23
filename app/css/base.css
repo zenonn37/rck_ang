@@ -111,7 +111,7 @@ a:hover, a:focus{
 .titlesServices{
     color: #f1c40f;
     margin-top:10px;
-    margin-bottom:60px;
+    margin-bottom:50px;
 
 
 
@@ -263,9 +263,9 @@ nav .navbar-nav{
     min-height:400px;
 }
 .mini{
-    background: #fff url(image/racing_f.jpg) 50% 50% no-repeat;
+    background: #fff url(image/f_racing_mast.jpg) no-repeat;
     background-size:cover;
-    width:100%;
+
     max-height:500px;
 
 }
@@ -476,7 +476,7 @@ nav .navbar-nav{
 .services p{
     color:#ecf0f1;
 
-    margin-bottom:40px;
+    margin-bottom:85px;
     margin-top:15px;
 
 
@@ -498,7 +498,24 @@ nav .navbar-nav{
     background-color: #262626;
     border: 1px solid transparent;
     border-radius: 2px;
+    height: 370px;
 
+
+}
+
+
+.services .panel-default>.panel-heading {
+    color: #333;
+    background-color: #262626;
+    border-color: transparent;
+}
+
+.services .panel-footer {
+    padding: 10px 15px;
+    background-color: #282B2D;
+    border-top:transparent;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
 }
 
 /*start hobbyshop*/

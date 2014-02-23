@@ -60,19 +60,25 @@
             <div class="col-md-4">
 
                 <div class="panel panel-default">
-                    <div class="panel-body">
+                    <div class="panel-heading">
+
                         <h3 class="titlesServices">Racing</h3>
 
-
-                        <h4>TageLine Header</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante enim, accumsan sagittis lobortis mattis, ornare sit amet orci. Nulla elit orci, dignissim vitae ornare eget, iaculis</p>
-
+                    </div>
+                    <div class="panel-body">
 
 
-                        <a href="#/racing">Learn More<img src="image/arrow_icon_16.png"></a>
+
+                        <h4>THE PLACE TO RACE</h4>
+                        <p>{{ racing }}</p>
+
+
+
+
 
 
                     </div>
+                    <div class="panel-footer">  <a href="#/racing">Learn More<img src="image/arrow_icon_16.png"></a></div>
                 </div>
 
             </div>
@@ -84,20 +90,25 @@
             <div class="col-md-4">
 
                 <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <h3 class="titlesServices">Pro Shop</h3>
+
+                    </div>
                     <div class="panel-body">
-                        <h3 class="titlesServices">Hobby Shop</h3>
-
-
-                        <h4>TageLine Header</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante enim, accumsan sagittis lobortis mattis, ornare sit amet orci. Nulla elit orci, dignissim vitae ornare eget, iaculis</p>
 
 
 
+                        <h4>RCK Hobby Shop</h4>
+                        <p>{{ pro }}</p>
 
-                        <a href="#/shop">Learn More<img src="image/arrow_icon_16.png"> </a>
+
+
+
 
 
                     </div>
+                    <div class="panel-footer">  <a href="#/racing">Learn More<img src="image/arrow_icon_16.png"></a></div>
                 </div>
 
             </div>
@@ -110,23 +121,27 @@
 
 
             <div class="col-md-4">
-
                 <div class="panel panel-default">
-                    <div class="panel-body">
+                    <div class="panel-heading">
+
                         <h3 class="titlesServices">Events</h3>
 
-
-                        <h4>TageLine Header</h4>
-                        <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante enim, accumsan sagittis lobortis mattis, ornare sit amet orci. Nulla elit orci, dignissim vitae ornare eget, iaculis</p>
-
+                    </div>
+                    <div class="panel-body">
 
 
-                        <a href="#">Learn More <img src="image/arrow_icon_16.png"></a>
+
+                        <h4>Host Your Events</h4>
+                        <p>{{ event }} </p>
+
+
+
+
 
 
                     </div>
+                    <div class="panel-footer">  <a href="#/racing">Learn More<img src="image/arrow_icon_16.png"></a></div>
                 </div>
-
             </div>
 
 
@@ -193,13 +208,11 @@
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <%=image_tag "31.png"%>
+                    <img src="image/alex_staff.png" alt="Alex RCK Owner">
 
                     <div class="caption">
                         <h3 class="text-center">Alex Kiekel</h3>
-                        <p>Hi my name is Alex, I have been in the hobby since age 10! I competed across the nation and won multiple awards. Multiple TCS ( Tamiya Championship Series) top 3 finishes, including 1st place winner of the Formula 1 Classes. I am the owner of R/C Kinetics, if you need any pointers, help or just have any questions do not hesitate to ask. See you in the races! </p>
-                        <p>   <a href="#"  class="learn">Learn More <%=image_tag "arrow_icon_16.png"%> </a></p>
-                    </div>
+                         </div>
                 </div>
             </div>
 
@@ -208,12 +221,10 @@
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <%=image_tag "peeps.png"%>
+                    <img src="image/john_doe.png" alt="John Doe RCK Manager">
                     <div class="caption">
-                        <h3  class="text-center">Danny Varjo</h3>
-                        <p>My names Danny, I work doing the digital and print work for facility. I also take care of some maintenance in the shop. Im new to the RC world, but eager to join in on the fun. </p>
-                        <p>   <a href="#"  class="learn">Learn More <%=image_tag "arrow_icon_16.png"%></a></p>
-                    </div>
+                        <h3  class="text-center">John Doe</h3>
+                        </div>
                 </div>
             </div>
 
@@ -222,12 +233,9 @@
 
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <%=image_tag "12.png"%>
+                    <img src="image/danny.png" alt="Danny RCK Marketing">
                     <div class="caption">
-                        <h3  class="text-center">Ben Rck</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ante enim, accumsan sagittis lobortis mattis, ornare sit amet orci. Nulla elit orci, dignissim vitae ornare eget, iaculis</p>
-                        <p>   <a href="#" class="learn">Learn More <%=image_tag "arrow_icon_16.png"%></a></p>
-                    </div>
+                        <h3  class="text-center">Danny Mejeia</h3> </div>
                 </div>
             </div>
         </div>
@@ -244,7 +252,8 @@
 <!--hero last-->
 <div class="hero_last">
     <div class="action_hero">
-        <h2 class="text-center">Ready for Speed? <span><a href=#>Contact us.</a></span></h2>
+        <h2 class="text-center">Ready for Speed? <span>  <a href ng-click="contact_hero" data-toggle="modal" data-target="#myModal">Contact Us</a></span></h2>
+
     </div>
 </div>
 <!--hero last end-->
