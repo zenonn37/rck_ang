@@ -2,15 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
-      <change type="MOVED" beforePath="C:\Users\Ruby\WebstormProjects\rck_ang\app\image\hobby_alex.jpg" afterPath="$PROJECT_DIR$/app/css/image/hobby_alex.jpg" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="$PROJECT_DIR$/app/views/about.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/base.css" afterPath="$PROJECT_DIR$/app/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/comp.html" afterPath="$PROJECT_DIR$/app/views/comp.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/events.html" afterPath="$PROJECT_DIR$/app/views/events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/racing.html" afterPath="$PROJECT_DIR$/app/views/racing.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/shop.html" afterPath="$PROJECT_DIR$/app/views/shop.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -36,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="374" column="19" selection-start="10090" selection-end="10090" vertical-scroll-proportion="0.9250721" vertical-offset="9082" max-vertical-offset="14170">
+            <state line="361" column="19" selection-start="9625" selection-end="9625" vertical-scroll-proportion="0.77521616" vertical-offset="8848" max-vertical-offset="13962">
               <folding />
             </state>
           </provider>
@@ -63,7 +56,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="260" column="36" selection-start="2987" selection-end="2987" vertical-scroll-proportion="0.0" vertical-offset="6837" max-vertical-offset="28236">
+            <state line="160" column="1" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="3639" max-vertical-offset="28314">
               <folding />
             </state>
           </provider>
@@ -651,14 +644,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="260" column="36" selection-start="2987" selection-end="2987" vertical-scroll-proportion="0.0" vertical-offset="6837" max-vertical-offset="28236">
+        <state line="160" column="1" selection-start="1497" selection-end="1497" vertical-scroll-proportion="0.0" vertical-offset="3639" max-vertical-offset="28314">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="374" column="19" selection-start="10090" selection-end="10090" vertical-scroll-proportion="0.9250721" vertical-offset="9082" max-vertical-offset="14170">
+        <state line="361" column="19" selection-start="9625" selection-end="9625" vertical-scroll-proportion="0.77521616" vertical-offset="8848" max-vertical-offset="13962">
           <folding />
         </state>
       </provider>
