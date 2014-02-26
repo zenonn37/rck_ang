@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html ng-app='Rck'>
+<html ng-app='rck_app'>
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
@@ -12,19 +12,23 @@
     <script src="//cdn.firebase.com/js/client/1.0.3/firebase.js"></script>
     <script src="//cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
     <script src="js/angular-animate.js"></script>
-    <script src="js/angular-route-min.js"></script>
-    <script src="js/apps.js"></script>
-    <script src="js/pages-controller.js"></script>
-    <script src="js/company-controller.js"></script>
-    <script src="js/contact-controller.js"></script>
-    <script src="js/schedule-controller.js"></script>
-    <script src="js/scroll-ctrl.js"></script>
+    <script src="js/angular-ui-router.js"></script>
+    <script src="js/app.js"></script>
+    <script src="js/controllers/homeController.js"></script>
+    <script src="js/controllers/aboutController.js"></script>
+    <script src="js/controllers/racingController.js"></script>
+    <script src="js/controllers/shopController.js"></script>
+    <script src="js/controllers/compController.js"></script>
+    <script src="js/controllers/eventsController.js"></script>
+    <script src="js/controllers/galleryController.js"></script>
+    <script src="js/controllers/scheduleController.js"></script>
+    <script src="js/controllers/contactController.js"></script>
 
-    <script src="js/jquery.fittext.js"></script>
-    <script src="js/fit.js">
 
-    </script>
-    <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script>
+
+
+
+
     <script src="js/bootstrap.js"></script>
 
 
@@ -113,10 +117,10 @@
         <div id="top" class="trim"></div>
 </header>
 <main role="main">
-    <div ng-view=""></div>
+ <div ui-view></div>
 </main>
 
-<div class="footer" ng-controller="ScrollCrtl">
+<div class="footer">
     <div class="container">
 
 
@@ -129,17 +133,17 @@
                     <h4 class="titlesServices">Navigation</h4>
 
                     <ul class="list-unstyled">
-                        <li><a href="#/home" ng-click="gotoTop()">Home</a></li>
+                        <li><a href="#/home">Home</a></li>
 
 
                         <li><a href="#" data-toggle="modal" data-target="#myModal2">Rates</a></li>
 
 
 
-                        <li><a href="#/schedule" ng-click="gotoTop()">Schedule</a></li>
-                        <li><a href="#/sitemap" ng-click="gotoTop()">SiteMap</a></li>
+                        <li><a href="#/schedule">Schedule</a></li>
+                        <li><a href="#/sitemap">SiteMap</a></li>
 
-                        <li><a href="#" ng-click="gotoTop()" data-toggle="modal" data-target="#myModal">Contact</a></li>
+                        <li><a href="#"  data-toggle="modal" data-target="#myModal">Contact</a></li>
                     </ul>
 
 
@@ -176,10 +180,10 @@
                     <h4 class="titlesServices">Services</h4>
 
                     <ul class="list-unstyled">
-                        <li><a href="#/racing" ng-click="gotoTop()" >Racing</a></li>
-                        <li><a href="#/shop" ng-click="gotoTop()" >Shop</a></li>
-                        <li><a href="#/comp" ng-click="gotoTop()" >Comp</a></li>
-                        <li><a href="#/events" ng-click="gotoTop()" >Events</a></li>
+                        <li><a href="#/racing">Racing</a></li>
+                        <li><a href="#/shop">Shop</a></li>
+                        <li><a href="#/comp">Comp</a></li>
+                        <li><a href="#/events">Events</a></li>
 
 
 
@@ -349,21 +353,7 @@
 
 
 
-                <script>
-                    function initialize() {
-                        var map_canvas = document.getElementById('map_canvas');
-                        var map_options = {
-                            center: new google.maps.LatLng(44.5403, -78.5463),
-                            zoom: 8,
-                            mapTypeId: google.maps.MapTypeId.ROADMAP
-                        }
-                        var map = new google.maps.Map(map_canvas, map_options)
-                    }
-                    google.maps.event.addDomListener(window, 'load', initialize);
-                </script>
 
-
-            <div id="map_canvas"></div>
 
         </div><!-- /.modal-content -->
     </div><!-- /.modal-dialog -->
