@@ -38,8 +38,48 @@ angular
                                     .state('competition',{
 
                                         url:'/competition',
-                                        templateUrl:'competition/shop.html',
+                                        templateUrl:'views/competition.html',
                                         controller: 'compController'
+
+                                    })
+
+                                    .state('events',{
+
+                                        url:'/events',
+                                        templateUrl:'views/events.html',
+                                        controller: 'eventsController'
+
+                                    })
+
+                                    .state('about',{
+
+                                        url:'/about',
+                                        templateUrl:'views/about.html',
+                                        controller: 'aboutController'
+
+                                    })
+
+                                    .state('gallery',{
+
+                                        url:'/gallery',
+                                        templateUrl:'views/gallery.html',
+                                        controller: 'galleryController'
+
+                                    })
+
+                                    .state('schedule',{
+
+                                        url:'/schedule',
+                                        templateUrl:'views/schedule.html',
+                                        controller: 'scheduleController'
+
+                                    })
+
+                                    .state('contact',{
+
+                                        url:'/contact',
+                                        templateUrl:'views/contact.html',
+                                        controller: 'contactController'
 
                                     })
 

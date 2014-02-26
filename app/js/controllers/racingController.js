@@ -4,7 +4,7 @@
 
 angular.module('rck_app')
 
-    .controller('racingController',['$scope',function(){
+    .controller('racingController',['$scope',function($scope){
 
         $scope.data = "RCK Racing";
 
