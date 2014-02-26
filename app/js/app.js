@@ -83,6 +83,14 @@ angular
 
                                     })
 
+                                    .state('admin',{
+
+                                        url:'/admin/dashboard',
+                                        templateUrl:'admin/dashboard.html',
+                                        controller: 'schCtrl'
+
+                                    })
+
 
 
 
