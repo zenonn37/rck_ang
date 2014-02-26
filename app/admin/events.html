@@ -1,0 +1,44 @@
+<div class="container">
+<div class="col-md-4">
+
+    <ul class="nav nav-pills">
+
+        <li ui-serf="active"><a ui-serf="event">Event System</a></li>
+
+        <li ui-serf="active"><a ui-serf="messages">Message's</a></li>
+    </ul>
+
+</div>
+
+
+<div class="col-md-8 events">
+
+    <table class="table">
+
+        <thead>
+
+
+
+        <th>Day</th>
+        <th>Time</th>
+        <th>Events</th>
+
+
+        </thead>
+
+        <tbody>
+        <tr ng-repeat="event in revents">
+
+            <td>{{ event.day }}</td>
+            <td>{{ event.time }}</td>
+            <td>{{ event.events }}</td>
+        </tr>
+
+        </tbody>
+
+
+    </table>
+
+    </div>
+
+</div>

@@ -28,46 +28,20 @@
             <div class="col-md-4">
 
 
-                    <ul class="nav nav-tabs">
+                    <ul class="nav nav-pills">
 
-                        
+                        <li ui-serf="active"><a ui-serf="event">Event System</a></li>
+
+                        <li ui-serf="active"><a ui-serf="messages">Message's</a></li>
                     </ul>
 
 
             </div>
-            <div class="col-md-8 about-us">
 
-                <table class="table">
-
-                    <thead>
-
-
-
-                        <th>Day</th>
-                        <th>Time</th>
-                        <th>Events</th>
-
-
-                    </thead>
-
-                    <tbody>
-                    <tr ng-repeat="event in revents">
-
-                        <td>{{ event.day }}</td>
-                        <td>{{ event.time }}</td>
-                        <td>{{ event.events }}</td>
-                    </tr>
-
-                    </tbody>
-
-
-                </table>
                  <button class="btn btn-primary" ng-click="addEvent()">FireBase</button>
                  </div>
 
-            <div class="col-md-4 about-us">
 
-            </div>
 
 
 

@@ -91,6 +91,22 @@ angular
 
                                     })
 
+                                    .state('event',{
+
+                                        url:'/admin/dashboard/event',
+                                        templateUrl:'admin/events.html',
+                                        controller: 'schCtrl'
+
+                                    })
+
+                                    .state('messages',{
+
+                                        url:'/admin/dashboard/messages',
+                                        templateUrl:'admin/events.html',
+                                        controller: 'schCtrl'
+
+                                    })
+
 
 
 
