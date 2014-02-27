@@ -21,6 +21,7 @@ angular.module('rck_app')
                 events:$scope.events
 
             });
+            $scope.event="";
 
         };
 

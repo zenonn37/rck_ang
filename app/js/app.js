@@ -4,7 +4,7 @@
 
 
 angular
-    .module('rck_app',['ui.router','ngAnimate','firebase'])
+    .module('rck_app',['ui.router','ngAnimate','firebase','ui.bootstrap'])
 
        .config(['$urlRouterProvider','$stateProvider', function($urlRouterProvider,$stateProvider){
 

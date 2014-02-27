@@ -11,7 +11,7 @@
 </div>
 
 
-<div class="col-md-8 events">
+<div class="col-md-8 events"  ng-controller="schCtrl">
 
     <table class="table">
 
@@ -38,6 +38,22 @@
 
 
     </table>
+
+    <div class="myforms">
+
+
+        <form ng-submit="addEvent();">
+
+            <input type="text" ng-model="scheduleNumber"/>
+            <input type="text" ng-model="day"/>
+            <input type="text" ng-model="time"/>
+            <input type="text" ng-model="events"/>
+            <input type="submit" value="Create Event"/>
+
+
+        </form>
+
+    </div>
 
     </div>
 

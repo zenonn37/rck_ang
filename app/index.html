@@ -13,6 +13,7 @@
     <script src="//cdn.firebase.com/libs/angularfire/0.6.0/angularfire.min.js"></script>
     <script src="js/lib/angular-animate.js"></script>
     <script src="js/lib/angular-ui-router.js"></script>
+    <script src="http://angular-ui.github.io/bootstrap/ui-bootstrap-tpls-0.6.0.js"></script>
     <script src="js/app.js"></script>
     <script src="js/controllers/homeController.js"></script>
     <script src="js/controllers/aboutController.js"></script>
@@ -52,18 +53,17 @@
         <div class="container">
             <div class="navbar-header">
 
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
+                <button type="button" class="navbar-toggle" ng-init="navCollapsed = true" ng-click="navCollapsed = !navCollapsed">                    <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
 
-                <a  class="navbar-brand" href="#"><img src="image/logo.png"></a>
+                <a  class="navbar-brand" ui-sref="home"><img src="image/logo.png"></a>
             </div>
 
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <div class="collapse navbar-collapse" ng-class="!navCollapsed && 'in'" ng-click="navCollapsed=true">
                 <ul class="nav navbar-nav">
                     <li><a ui-sref="home">Home</a></li>
 
@@ -92,7 +92,7 @@
 
 
                         </ul>
-                     <li><a href="#/schedule">Schedule</a></li>
+                     <li><a ui-sref="schedule">Schedule</a></li>
 
                     <li><a href data-toggle="modal" data-target="#myModal2">Rates</a></li>
                     <li><a href data-toggle="modal" data-target="#myModal">Contact</a></li>
@@ -122,171 +122,7 @@
  <div ui-view></div>
 </main>
 
-<div class="footer">
-    <div class="container">
 
-
-
-
-        <div class="col-md-3">
-
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h4 class="titlesServices">Navigation</h4>
-
-                    <ul class="list-unstyled">
-                        <li><a ui-serf="home">Home</a></li>
-
-
-                        <li><a href data-toggle="modal" data-target="#myModal2">Rates</a></li>
-
-
-
-                        <li><a ui-serf="schedule">Schedule</a></li>
-                        <li><a ui-serf="sitemap">SiteMap</a></li>
-
-                        <li><a href  data-toggle="modal" data-target="#myModal">Contact</a></li>
-                    </ul>
-
-
-
-
-
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-        <div class="col-md-3">
-
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h4 class="titlesServices">Services</h4>
-
-                    <ul class="list-unstyled">
-                        <li><a ui-sref="racing">Racing</a></li>
-                        <li><a  ui-sref="shop">Shop</a></li>
-                        <li><a  ui-sref="competition">Comp</a></li>
-                        <li><a  ui-sref="events">Events</a></li>
-
-
-
-
-
-
-                    </ul>
-
-
-
-
-
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-        <div class="col-md-3">
-
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h4 class="titlesServices">Company</h4>
-
-                    <ul class="list-unstyled">
-                        <li><a ui-sref="about_rck">About RCK</a></li>
-                        <li><a herf data-toggle="modal" data-target="#myModal3">Hours</a></li>
-                         <li><a ui-sref="gallery">Gallery</a></li>
-
-                    </ul>
-
-
-
-
-
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-        <div class="col-md-3">
-
-            <div class="panel panel-default">
-                <div class="panel-body">
-                    <h4 class="titlesServices">Location</h4>
-
-                    <address>
-                        <strong>RC Kinetics</strong><br>
-                        2739 6th Ave<br>
-                        Troy NY, 12180<br>
-                        <abbr title="Phone">P:</abbr> (518) 456-7890
-                    </address>
-
-
-
-
-
-                </div>
-            </div>
-
-
-
-
-
-
-
-        </div>
-
-
-
-
-
-
-
-
-
-
-
-    </div>
-
-
-    <!--hero last end-->
-
-</div>
 <footer>
     <div class="container">
 
@@ -346,6 +182,15 @@
                         </div>
                     </div>
                 </form>
+
+                <h4 class="titlesServices">Location</h4>
+
+                <address>
+                    <strong>RC Kinetics</strong><br>
+                    2739 6th Ave<br>
+                    Troy NY, 12180<br>
+                    <abbr title="Phone">P:</abbr> (518) 456-7890
+                </address>
             </div>
             <div class="modal-footer">
                 <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
