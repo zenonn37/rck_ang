@@ -4,7 +4,7 @@
 
 angular.module('rck_app')
 
-    .controller('shopController',['$scope',function(){
+    .controller('shopController',['$scope',function($scope){
 
          $scope.data = "Pro Shop";
 
