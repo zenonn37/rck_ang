@@ -15,5 +15,11 @@ angular.module('rck_app')
 
         $scope.event = "Let Us Host Your Birthday Parties, and Business Events.";
 
+        $scope.toggle = true;
+        $scope.toggle2 = true;
+        $scope.toggle3 = true;
+
+
+
 
     }]);
