@@ -4,7 +4,6 @@
     <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/base.css" afterPath="$PROJECT_DIR$/app/css/base.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.html" afterPath="$PROJECT_DIR$/app/views/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/homeController.js" afterPath="$PROJECT_DIR$/app/js/controllers/homeController.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rck.iws" />
@@ -46,19 +45,19 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="108" column="94" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5619597" vertical-offset="2418" max-vertical-offset="9542">
+            <state line="327" column="56" selection-start="6436" selection-end="6436" vertical-scroll-proportion="-236.37143" vertical-offset="229" max-vertical-offset="9698">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="567" column="19" selection-start="6724" selection-end="6724" vertical-scroll-proportion="0.0" vertical-offset="14323" max-vertical-offset="30004">
+            <state line="53" column="1" selection-start="578" selection-end="578" vertical-scroll-proportion="0.39231825" vertical-offset="1092" max-vertical-offset="30004">
               <folding />
             </state>
           </provider>
@@ -179,9 +178,9 @@
         <option value="$PROJECT_DIR$/app/js/lib/ui-bootstrap-0.10.0-min.js" />
         <option value="$PROJECT_DIR$/app/views/schedule.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/homeController.js" />
-        <option value="$PROJECT_DIR$/app/css/base.css" />
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/views/home.html" />
+        <option value="$PROJECT_DIR$/app/css/base.css" />
       </list>
     </option>
   </component>
@@ -650,13 +649,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/base.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="567" column="19" selection-start="6724" selection-end="6724" vertical-scroll-proportion="0.0" vertical-offset="14323" max-vertical-offset="30004">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="97" column="25" selection-start="4270" selection-end="4319" vertical-scroll-proportion="-10.4" vertical-offset="2158" max-vertical-offset="9672">
@@ -666,7 +658,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="108" column="94" selection-start="1794" selection-end="1794" vertical-scroll-proportion="0.5619597" vertical-offset="2418" max-vertical-offset="9542">
+        <state line="327" column="56" selection-start="6436" selection-end="6436" vertical-scroll-proportion="-236.37143" vertical-offset="229" max-vertical-offset="9698">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/css/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="53" column="1" selection-start="578" selection-end="578" vertical-scroll-proportion="0.39231825" vertical-offset="1092" max-vertical-offset="30004">
           <folding />
         </state>
       </provider>

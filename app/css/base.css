@@ -35,7 +35,7 @@ p{
 
 a{
 
-    color:#ecf0f1;
+    color:#F1C40F;
     text-decoration:none;
 }
 
@@ -49,9 +49,9 @@ a{
 
 
 a:hover, a:focus{
-    color: #308ac6;
+    color: #fff;
+    text-decoration:none;
 }
-
 /*End base styles*/
 
 
@@ -655,7 +655,7 @@ nav .navbar-nav{
     margin-bottom: 20px;
     line-height: 1.428571429;
     background-color: #262626;
-    border: 1px solid transparent;
+    border: 4px solid transparent;
     border-radius: 2px;
     -webkit-transition: all 0.2s ease-in-out;
     transition: all 0.2s ease-in-out;
