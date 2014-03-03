@@ -48,8 +48,9 @@
 
 
 
-<div class="container">
+
     <div class="services">
+        <div class="container">
         <div class="row">
 
             <h2 class="titles">Services
@@ -74,7 +75,9 @@
 
 
 
-                        <a ui-sref="racing">Learn More<img src="image/arrow_icon_16.png"></a>
+                        <a ui-sref="racing" class="service_anchors visible-sm  visible-xs">Racing<img src="image/arrow_icon_16.png"></a>
+
+
 
 
                     </div>
@@ -103,8 +106,8 @@
                         <p>{{ pro }}</p>
 
 
+                        <a ui-sref="shop" class="service_anchors visible-sm  visible-xs">Hobby<img src="image/arrow_icon_16.png"></a>
 
-                        <a ui-sref="shop">Learn More<img src="image/arrow_icon_16.png"></a>
 
 
                     </div>
@@ -124,7 +127,7 @@
                 <div class="panel panel-default">
                     <div class="panel-heading">
 
-                        <h3 class="titlesServices">Events</h3>
+                        <h3 class="titlesServices"> Entertainment</h3>
 
                     </div>
                     <div class="panel-body">
@@ -135,19 +138,87 @@
                         <p>{{ event }} </p>
 
 
+                        <a href data-toggle="modal" data-target="#myModal" class="service_anchors visible-sm  visible-xs">Book An Event<img src="image/arrow_icon_16.png"></a>
 
-                        <a ui-sref="events">Learn More<img src="image/arrow_icon_16.png"></a>
+
 
 
                     </div>
-                    <div class="panel-footer"> </div>
+
                 </div>
             </div>
 
 
 
 
-        </div><!--end row-->
+        </div><!--end row--> <!--start hidden-->
+
+            <div class="row visible-md visible-lg">
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+
+
+
+
+
+
+                            <a ui-sref="racing" class="service_anchors">Racing<img src="image/arrow_icon_16.png"></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+
+
+
+
+
+
+                            <a ui-sref="shop" class="service_anchors">Hobby<img src="image/arrow_icon_16.png"></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+
+
+
+
+
+
+                            <a href data-toggle="modal" data-target="#myModal">Book An Event<img src="image/arrow_icon_16.png"></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+        </div>
+
+
+            </div>
 
     </div>
 

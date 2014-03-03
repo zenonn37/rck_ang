@@ -517,9 +517,19 @@ nav .navbar-nav{
 /*Services*/
 
 
+.services .service_anchors{
+
+    margin-bottom: 30px;
+    padding-bottom: 50px;
+    position: relative;
+
+}
+
+
 .services{
     margin-top:60px;
     margin-bottom:130px;
+    background-color: #262626;
 
 }
 .services h4, h5{
@@ -532,7 +542,7 @@ nav .navbar-nav{
 .services p{
     color:#ecf0f1;
 
-    margin-bottom:85px;
+    margin-bottom:25px;
     margin-top:15px;
 
 
@@ -551,27 +561,26 @@ nav .navbar-nav{
 
 .services .panel {
     margin-bottom: 20px;
-    background-color: #262626;
-    border: 1px solid transparent;
-    border-radius: 2px;
-    height: 370px;
+    background-color: transparent;
+    border: none;
 
+    height:100%;
+    box-shadow:none;
 
 }
 
 
 .services .panel-default>.panel-heading {
     color: #333;
-    background-color: #262626;
+    background-color:transparent;
     border-color: transparent;
 }
 
 .services .panel-footer {
     padding: 10px 15px;
     background-color: transparent;
-    border-top:transparent;
-    border-bottom-right-radius: 3px;
-    border-bottom-left-radius: 3px;
+    border-top:none;
+
 }
 
 /*start hobbyshop*/
