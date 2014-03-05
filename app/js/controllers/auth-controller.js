@@ -4,8 +4,9 @@
 
 angular.module("rck_app")
 
-    .controller("authController",["$scope","$firebaseSimpleLogin","$location","SchService",
-        function($scope,$firebaseSimpleLogin,SchService,$location){
+    .controller("authController",["$scope","$location","$firebaseSimpleLogin","SchService",
+        function($scope,$location,
+                 $firebaseSimpleLogin,SchService){
 
                  var dataRef =  new Firebase("https://rcks.firebaseio.com/schedule");
 
@@ -32,7 +33,8 @@ angular.module("rck_app")
                     //$location.path('/admin/dashboard/event');
                     if(user){
                        console.log("logged in");
-                        $scope.loginChange(paths);
+                        $location.path("/admin/dashboard/event");
+                       // $scope.loginChange(paths);
                     }
 
 
@@ -47,11 +49,7 @@ angular.module("rck_app")
 
 
 
-            $scope.loginChange = function(path){
 
-                $location.path(paths);
-
-            }
 
 
 

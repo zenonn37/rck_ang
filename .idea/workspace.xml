@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/admin/login.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/app.js" afterPath="$PROJECT_DIR$/app/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/auth-controller.js" afterPath="$PROJECT_DIR$/app/js/controllers/auth-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/events.html" afterPath="$PROJECT_DIR$/app/admin/events.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/homeController.js" afterPath="$PROJECT_DIR$/app/js/controllers/homeController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/admin/login.html" afterPath="$PROJECT_DIR$/app/admin/login.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/schCtrl.js" afterPath="$PROJECT_DIR$/app/js/controllers/schCtrl.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/schedule.html" afterPath="$PROJECT_DIR$/app/views/schedule.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/js/controllers/scheduleController.js" afterPath="$PROJECT_DIR$/app/js/controllers/scheduleController.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rck.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,10 +37,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="auth-controller.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="auth-controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/auth-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="29" selection-start="832" selection-end="832" vertical-scroll-proportion="0.23943663" vertical-offset="559" max-vertical-offset="1820">
+            <state line="35" column="62" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1768">
               <folding>
                 <element signature="e#0#43#0" expanded="false" />
               </folding>
@@ -56,7 +51,7 @@
       <file leaf-file-name="login.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/admin/login.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="60" column="1" selection-start="1502" selection-end="1502" vertical-scroll-proportion="-11.142858" vertical-offset="1170" max-vertical-offset="2782">
+            <state line="61" column="7" selection-start="1469" selection-end="1585" vertical-scroll-proportion="-14.114285" vertical-offset="1092" max-vertical-offset="2782">
               <folding />
             </state>
           </provider>
@@ -66,6 +61,15 @@
         <entry file="file://$PROJECT_DIR$/app/js/controllers/scheduleController.js">
           <provider selected="true" editor-type-id="text-editor">
             <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="schCtrl.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/js/controllers/schCtrl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="15" column="38" selection-start="445" selection-end="445" vertical-scroll-proportion="0.4225352" vertical-offset="0" max-vertical-offset="1430">
               <folding />
             </state>
           </provider>
@@ -102,15 +106,6 @@
         <entry file="file://$PROJECT_DIR$/app/views/home.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="327" column="56" selection-start="6436" selection-end="6436" vertical-scroll-proportion="-242.91429" vertical-offset="0" max-vertical-offset="9698">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="95" column="68" selection-start="3395" selection-end="3419" vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="3328">
               <folding />
             </state>
           </provider>
@@ -180,8 +175,6 @@
         <option value="$PROJECT_DIR$/app/js/lib/ui-bootstrap-0.10.0-min.js" />
         <option value="$PROJECT_DIR$/app/views/home.html" />
         <option value="$PROJECT_DIR$/app/css/base.css" />
-        <option value="$PROJECT_DIR$/app/js/controllers/schCtrl.js" />
-        <option value="$PROJECT_DIR$/app/admin/events.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/scheduleController.js" />
         <option value="$PROJECT_DIR$/app/js/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/app/views/schedule.html" />
@@ -189,6 +182,8 @@
         <option value="$PROJECT_DIR$/app/index.html" />
         <option value="$PROJECT_DIR$/app/admin/login.html" />
         <option value="$PROJECT_DIR$/app/js/controllers/auth-controller.js" />
+        <option value="$PROJECT_DIR$/app/admin/events.html" />
+        <option value="$PROJECT_DIR$/app/js/controllers/schCtrl.js" />
       </list>
     </option>
   </component>
@@ -791,37 +786,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/scheduleController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/css/bootstrap.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="150566">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/events.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="72" column="11" selection-start="150" selection-end="2190" vertical-scroll-proportion="-13.114285" vertical-offset="1413" max-vertical-offset="3484">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="34" column="50" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-16.342857" vertical-offset="312" max-vertical-offset="9880">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/schCtrl.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="47" selection-start="109" selection-end="119" vertical-scroll-proportion="0.028169014" vertical-offset="104" max-vertical-offset="1040">
           <folding />
         </state>
       </provider>
@@ -833,26 +800,54 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/admin/login.html">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/scheduleController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="1" selection-start="1502" selection-end="1502" vertical-scroll-proportion="-11.142858" vertical-offset="1170" max-vertical-offset="2782">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="95" column="68" selection-start="3395" selection-end="3419" vertical-scroll-proportion="0.0" vertical-offset="2223" max-vertical-offset="3328">
+        <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/js/controllers/auth-controller.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="32" column="29" selection-start="832" selection-end="832" vertical-scroll-proportion="0.23943663" vertical-offset="559" max-vertical-offset="1820">
+        <state line="35" column="62" selection-start="962" selection-end="962" vertical-scroll-proportion="0.0" vertical-offset="234" max-vertical-offset="1768">
           <folding>
             <element signature="e#0#43#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="34" column="50" selection-start="1744" selection-end="1744" vertical-scroll-proportion="-16.342857" vertical-offset="312" max-vertical-offset="9880">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/login.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="61" column="7" selection-start="1469" selection-end="1585" vertical-scroll-proportion="-14.114285" vertical-offset="1092" max-vertical-offset="2782">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/admin/events.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="201" selection-end="201" vertical-scroll-proportion="0.14857143" vertical-offset="78" max-vertical-offset="3562">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="111" column="44" selection-start="4001" selection-end="4015" vertical-scroll-proportion="0.8028169" vertical-offset="2145" max-vertical-offset="3328">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/schCtrl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="15" column="38" selection-start="445" selection-end="445" vertical-scroll-proportion="0.4225352" vertical-offset="0" max-vertical-offset="1430">
+          <folding />
         </state>
       </provider>
     </entry>
