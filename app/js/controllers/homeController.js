@@ -14,18 +14,12 @@ angular.module('rck_app')
         $scope.pro = "New RC Cars and Trucks, Parts, Accessories, Repairs, and rentals.";
 
         var events = $scope.event = "Our lounge area has arcades and we offer Hosting Events for your Birthday Parties and Businesses.";
-        console.log(events.length);
+        //console.log(events.length);
         $scope.toggle = true;
         $scope.toggle2 = true;
         $scope.toggle3 = true;
 
-        $scope.checkStringLength = function(events){
 
-            if(events.length  > 72){
-
-            }
-
-        };
 
 
 

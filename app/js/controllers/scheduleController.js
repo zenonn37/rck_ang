@@ -3,8 +3,8 @@
  */
 angular.module('rck_app')
 
-    .controller('scheduleController',['$scope',function(){
+    .controller('scheduleController',['$scope','SchService',function($scope,SchService){
 
-        $scope.data = "Pro Shop";
+      $scope.schedules = SchService;
 
     }]);

@@ -15,9 +15,11 @@ angular.module('rck_app')
 
             $scope.revents.$add({
 
-                schNumber: $scope.scheduleNumber,
+
                 day:$scope.day,
-                time:$scope.time,
+                month:$scope.month,
+                start:$scope.start,
+                end:$scope.end,
                 events:$scope.events
 
             });
@@ -25,11 +27,7 @@ angular.module('rck_app')
 
         };
 
-        $scope.removeEvent = function(key){
 
-            $scope.revents.$remove(key);
-
-        }
 
 
 

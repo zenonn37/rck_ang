@@ -107,6 +107,15 @@ angular
 
                                     })
 
+                                    .state('login',{
+
+                                        url:'/admin/login',
+                                        templateUrl:'admin/login.html',
+                                        controller: 'authController'
+
+
+                                    })
+
 
 
 
