@@ -13,7 +13,7 @@ angular.module('rck_app')
         //add fire base push function
         $scope.addEvent = function(){
 
-            $scope.event.$add({
+            $scope.revents.$add({
 
                 schNumber: $scope.scheduleNumber,
                 day:$scope.day,
@@ -24,6 +24,12 @@ angular.module('rck_app')
             $scope.event="";
 
         };
+
+        $scope.removeEvent = function(key){
+
+            $scope.revents.$remove(key);
+
+        }
 
 
 
