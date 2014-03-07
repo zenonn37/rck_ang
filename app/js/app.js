@@ -35,9 +35,9 @@ angular
 
                                     })
 
-                                    .state('competition',{
+                                    .state('trophy',{
 
-                                        url:'/competition',
+                                        url:'/trophy',
                                         templateUrl:'views/competition.html',
                                         controller: 'compController'
 

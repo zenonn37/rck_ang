@@ -3,7 +3,7 @@
  */
 angular.module('rck_app')
 
-    .controller('compController',['$scope',function(){
+    .controller('compController',['$scope',function($scope){
 
         $scope.data = "comp";
 

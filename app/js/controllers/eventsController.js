@@ -5,7 +5,7 @@
 
 angular.module('rck_app')
 
-    .controller('eventsController',['$scope',function(){
+    .controller('eventsController',['$scope',function($scope){
 
         $scope.data = "Events";
 
