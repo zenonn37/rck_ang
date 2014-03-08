@@ -89,7 +89,7 @@ angular
                                     .state('messages',{
 
                                         url:'/admin/dashboard/messages',
-                                        templateUrl:'admin/events.html',
+                                        templateUrl:'admin/message.html',
                                         controller: 'schCtrl'
 
                                     })

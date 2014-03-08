@@ -26,19 +26,21 @@
         <div class="row">
 
             <div class="col-md-4">
-
+                       <span data-ng-show="authCheck.user">
+  {{authCheck.user.email}} | <a href data-ng-click="authCheck.$logout()">Logout</a>
+</span>
 
                     <ul class="nav nav-pills">
 
-                        <li ui-serf="active"><a ui-serf="event">Event System</a></li>
+                        <li><a href="#/admin/dashboard/event">Event System</a></li>
 
-                        <li ui-serf="active"><a ui-serf="messages">Message's</a></li>
+                        <li><a href="#/admin/dashboard/messages">Message's</a></li>
                     </ul>
 
 
             </div>
 
-                 <button class="btn btn-primary" ng-click="addEvent()">FireBase</button>
+            
                  </div>
 
 

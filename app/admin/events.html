@@ -4,9 +4,14 @@
 <div class="container">
     <div class="row">
      <div class="col-md-6">
-     <h2>Input Events</h2>
+     <h2>Input Events</h2>   <ul class="nav nav-pills">
+
+                        <li><a href="#/admin/dashboard">Dashboard</a></li>
+
+                        <li><a href="#/admin/dashboard/messages">Message's</a></li>
+                    </ul>
          <span data-ng-show="authCheck.user">
-  {{authCheck.user.email}} | <a href ng-click="authCheck.$logout()">Logout</a>
+  {{authCheck.user.email}} | <a href data-ng-click="authCheck.$logout()">Logout</a>
 </span>
     <form class="form-horizontal" role="form" data-ng-submit="addEvent();">
 
@@ -15,7 +20,7 @@
             <label for="Month" class="col-sm-2 control-label">Month</label>
             <div class="col-sm-10">
 
-                <input type="month" ng-model="month" class="form-control" id="Month" placeholder="Enter Month">
+                <input type="month" data-ng-model="month" class="form-control" id="Month" placeholder="Enter Month">
 
 
 
@@ -30,7 +35,7 @@
             <label for="Day" class="col-sm-2 control-label">Day</label>
             <div class="col-sm-10">
 
-                <select class="form-control" ng-model="day" id="Day">
+                <select class="form-control" data-ng-model="day" id="Day">
                     <option>Monday</option>
                     <option>Tuesday</option>
                     <option>Wednesday</option>
@@ -49,21 +54,21 @@
             <div class="col-sm-10">
               
                 
-                   <select class="form-control" ng-model="start" id="Day">
-                    <option>10:00AM</option>
-                    <option>11:00AM</option>
-                    <option>12:00PM</option>
-                    <option>1:00PM</option>
-                    <option>2:00PM</option>
-                    <option>3:00PM</option>
-                    <option>4:00PM</option>
-                        <option>500:PM</option>
-                    <option>6:00PM</option>
-                    <option>7:00PM</option>
-                    <option>8:00PM</option>
-                        <option>9:00PM</option>
-                    <option>10:00PM</option>
-                    <option>11:00PM</option>
+                   <select class="form-control" data-ng-model="start" id="Day">
+                    <option>10:00 AM</option>
+                    <option>11:00 AM</option>
+                    <option>12:00 PM</option>
+                    <option>1:00  PM</option>
+                    <option>2:00  PM</option>
+                    <option>3:00  PM</option>
+                    <option>4:00  PM</option>
+                    <option>5:00  PM</option>
+                    <option>6:00  PM</option>
+                    <option>7:00  PM</option>
+                    <option>8:00  PM</option>
+                    <option>9:00  PM</option>
+                    <option>10:00 PM</option>
+                    <option>11:00 PM</option>
                 </select>
                 
                 
@@ -75,7 +80,7 @@
         <div class="form-group">
             <label for="End" class="col-sm-2 control-label">End</label>
             <div class="col-sm-10">
-                 <select class="form-control" ng-model="end" id="Day">
+                 <select class="form-control" data-ng-model="end" id="Day">
                     <option>10:00AM</option>
                     <option>11:00AM</option>
                     <option>12:00PM</option>
@@ -83,7 +88,7 @@
                     <option>2:00PM</option>
                     <option>3:00PM</option>
                     <option>4:00PM</option>
-                        <option>500:PM</option>
+                        <option>5:00:PM</option>
                     <option>6:00PM</option>
                     <option>7:00PM</option>
                     <option>8:00PM</option>

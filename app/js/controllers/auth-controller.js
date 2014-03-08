@@ -33,7 +33,7 @@ angular.module("rck_app")
                     //$location.path('/admin/dashboard/event');
                     if(user){
                        console.log("logged in");
-                        $location.path("/admin/dashboard/event");
+                        $location.path("/admin/dashboard");
                        // $scope.loginChange(paths);
                     }
 
