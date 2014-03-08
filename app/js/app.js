@@ -43,13 +43,7 @@ angular
 
                                     })
 
-                                    .state('events',{
 
-                                        url:'/events',
-                                        templateUrl:'views/events.html',
-                                        controller: 'eventsController'
-
-                                    })
 
                                     .state('about',{
 
@@ -59,14 +53,7 @@ angular
 
                                     })
 
-                                    .state('gallery',{
-
-                                        url:'/gallery',
-                                        templateUrl:'views/gallery.html',
-                                        controller: 'galleryController'
-
-                                    })
-
+                                  
                                     .state('schedule',{
 
                                         url:'/schedule',

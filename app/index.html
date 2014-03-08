@@ -28,7 +28,7 @@
     <script src="js/controllers/racingController.js"></script>
     <script src="js/controllers/shopController.js"></script>
     <script src="js/controllers/compController.js"></script>
-    <script src="js/controllers/eventsController.js"></script>
+
     <script src="js/controllers/galleryController.js"></script>
     <script src="js/controllers/scheduleController.js"></script>
     <script src="js/controllers/contactController.js"></script>
@@ -84,7 +84,7 @@
                             <li><a ui-sref="racing">Racing</a></li>
                             <li><a ui-sref="shop">Shop</a></li>
                             <li><a ui-sref="trophy">trophy</a></li>
-                            <li><a ui-sref="events">Entertainment</a></li>
+
 
 
                         </ul>
@@ -95,7 +95,7 @@
                         <ul class="dropdown-menu">
                             <li><a href data-toggle="modal" data-target="#myModal3">Hours</a></li>
                             <li><a ui-sref="about">About Us</a></li>
-                            <li><a ui-sref="gallery">Gallery</a></li>
+                          
 
 
 
@@ -167,7 +167,7 @@
             </div>
             <div class="modal-body">
                 <div ng-controller="contactController">
-                <form class="form-horizontal" role="form" ng-submit="addContact();
+                <form class="form-horizontal" role="form" data-ng-submit="addContact();
                 ">
                     <div class="form-group">
                         <label for="inputName" class="col-sm-2 control-label">Name</label>
@@ -226,12 +226,12 @@
 
 
 <!-- rates model -->
-<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel2" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">Rates</h4>
+                <h4 class="modal-title" id="myModalLabel2">Rates</h4>
             </div>
             <div class="modal-body">
                 <table class="table">
@@ -244,7 +244,7 @@
                     <tr>
 
                         <td>Practice</td>
-                        <td>10.00</td>
+                        <td>10.00 Dollars all day.</td>
 
 
                     </tr>
@@ -252,7 +252,7 @@
                     <tr>
 
                         <td>Racing Competitions</td>
-                        <td>20.00</td>
+                        <td>10.00 Dollars for timed races/$5.00 each additional race</td>
 
 
                     </tr>
@@ -261,7 +261,7 @@
                     <tr>
 
                         <td>Partys</td>
-                        <td>100.00</td>
+                        <td>Please Call</td>
 
 
                     </tr>
@@ -285,12 +285,12 @@
 
 
 <!-- hours model -->
-<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+<div class="modal fade" id="myModal3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel3" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-                <h4 class="modal-title" id="myModalLabel">RCK Hours</h4>
+                <h4 class="modal-title" id="myModalLabel3">RCK Hours</h4>
             </div>
             <div class="modal-body">
                 <table class="table">
