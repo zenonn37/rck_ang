@@ -1,14 +1,14 @@
 
-<div class="admin" ng-controller="schCtrl">
+<div class="admin" data-ng-controller="schCtrl">
 
 <div class="container">
     <div class="row">
      <div class="col-md-6">
      <h2>Input Events</h2>
-         <span ng-show="authCheck.user">
+         <span data-ng-show="authCheck.user">
   {{authCheck.user.email}} | <a href ng-click="authCheck.$logout()">Logout</a>
 </span>
-    <form class="form-horizontal" role="form" ng-submit="addEvent();">
+    <form class="form-horizontal" role="form" data-ng-submit="addEvent();">
 
 
         <div class="form-group">
@@ -47,7 +47,27 @@
         <div class="form-group">
             <label for="Start" class="col-sm-2 control-label">Start</label>
             <div class="col-sm-10">
-                <input type="time" ng-model="start" class="form-control" id="Start" placeholder="Start Time">
+              
+                
+                   <select class="form-control" ng-model="start" id="Day">
+                    <option>10:00AM</option>
+                    <option>11:00AM</option>
+                    <option>12:00PM</option>
+                    <option>1:00PM</option>
+                    <option>2:00PM</option>
+                    <option>3:00PM</option>
+                    <option>4:00PM</option>
+                        <option>500:PM</option>
+                    <option>6:00PM</option>
+                    <option>7:00PM</option>
+                    <option>8:00PM</option>
+                        <option>9:00PM</option>
+                    <option>10:00PM</option>
+                    <option>11:00PM</option>
+                </select>
+                
+                
+                
             </div>
         </div>
 
@@ -55,7 +75,22 @@
         <div class="form-group">
             <label for="End" class="col-sm-2 control-label">End</label>
             <div class="col-sm-10">
-                <input type="time" ng-model="end" class="form-control" id="End" placeholder="End Time">
+                 <select class="form-control" ng-model="end" id="Day">
+                    <option>10:00AM</option>
+                    <option>11:00AM</option>
+                    <option>12:00PM</option>
+                    <option>1:00PM</option>
+                    <option>2:00PM</option>
+                    <option>3:00PM</option>
+                    <option>4:00PM</option>
+                        <option>500:PM</option>
+                    <option>6:00PM</option>
+                    <option>7:00PM</option>
+                    <option>8:00PM</option>
+                        <option>9:00PM</option>
+                    <option>10:00PM</option>
+                    <option>11:00PM</option>
+                </select>
             </div>
         </div>
 
@@ -98,8 +133,8 @@
 
         <tbody>
 
-        <tr ng-repeat="(key, event) in revents">
-             <td><button class="btn btn-danger" ng-click="revents.$remove(key);"> <span class="glyphicon glyphicon-trash"></span></button></td>
+        <tr data-ng-repeat="(key, event) in revents">
+             <td><button class="btn btn-danger" data-ng-click="revents.$remove(key);"> <span class="glyphicon glyphicon-trash"></span></button></td>
             <td>{{ event.month }}</td>
             <td>{{ event.day }}</td>
             <td>{{ event.start }}</td>
