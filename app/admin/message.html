@@ -33,15 +33,21 @@
                        <th>Name</th>
                                <th>Email</th>
                                <th>Message</th>
+                           <th>Delete</th>
                            
                        
                        </thead>
                    
-                               <tr data-ng-repeat="contact in contacts">
-                       
+                               <tr data-ng-repeat="(key, contact) in contacts">
+                    
                                     <td>{{contact.name}}</td>
                                       <td>{{contact.email}}</td>
                                       <td>{{contact.message}}</td>
+                                   <td><button class="btn btn-danger" data-ng-click="contacts.$remove(key)">
+                                       
+                                       <span class="glyphicon glyphicon-trash"></span>
+                                       
+                                       </button></td>
                        
                        
                                </tr>
