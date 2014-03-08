@@ -4,9 +4,24 @@
 
 angular.module('rck_app')
 
-    .controller('contactController',['$scope,ContactService',function($scope,ContactService){
+    .controller('contactController',['$scope','ContactService',function($scope,ContactService){
 
         $scope.contacts = ContactService;
+
+
+        //contstruct contact submit function
+        $scope.addContact = function(){
+
+            $scope.contacts.$add({name:$scope.name,
+                email:$scope.email,
+                message:$scope.message});
+
+            $scope.name = "";
+            $scope.email = "";
+            $scope.message = "";
+        };
+
+
 
         $scope.data = "Contact us";
 
