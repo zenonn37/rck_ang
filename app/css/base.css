@@ -909,7 +909,7 @@ footer h6{
 
 .modal-content {
     position: relative;
-    background-color: #282b2d;
+    background-color: #fff;
     border: 1px solid #999999;
     border: 1px solid rgba(0, 0, 0, 0.2);
     border-radius: 6px;
@@ -927,9 +927,22 @@ footer h6{
 
 
 .modal-body{
-    color:#ecf0f1;
+    color:#000;
 
 }
+
+.modal-body .closed{
+    color:red;
+
+}
+
+
+.modal-body .opened{
+    color:#27ae60;
+
+}
+
+
 
 
 
