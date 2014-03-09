@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/css/base.css" afterPath="$PROJECT_DIR$/app/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-    </list>
+    <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work" />
     <ignored path="rck.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -26,10 +23,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="base.css" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/css/base.css">
+      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="939" column="19" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.9142857" vertical-offset="23582" max-vertical-offset="30472">
+            <state line="322" column="41" selection-start="10048" selection-end="10054" vertical-scroll-proportion="9.568" vertical-offset="0" max-vertical-offset="10010">
               <folding />
             </state>
           </provider>
@@ -38,7 +35,7 @@
       <file leaf-file-name="auth-controller.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/auth-controller.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="47" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1820">
+            <state line="47" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1820">
               <folding />
             </state>
           </provider>
@@ -74,7 +71,7 @@
       <file leaf-file-name="scheduleController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/controllers/scheduleController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="78" max-vertical-offset="416">
+            <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
               <folding />
             </state>
           </provider>
@@ -266,6 +263,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -278,7 +293,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../firebase_auth" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../plankk_com" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -574,13 +589,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/scheduleController.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="61" column="7" selection-start="1469" selection-end="1585" vertical-scroll-proportion="0.0" vertical-offset="1092" max-vertical-offset="2782">
@@ -623,13 +631,6 @@
     <entry file="file://$PROJECT_DIR$/app/js/controllers/eventsController.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="7" column="60" selection-start="134" selection-end="134" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="468">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/controllers/auth-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="47" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="637" max-vertical-offset="1820">
           <folding />
         </state>
       </provider>
@@ -677,16 +678,30 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/index.html">
+    <entry file="file://$PROJECT_DIR$/app/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="322" column="41" selection-start="10048" selection-end="10054" vertical-scroll-proportion="0.6537143" vertical-offset="7800" max-vertical-offset="10010">
+        <state line="939" column="19" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.0" vertical-offset="22568" max-vertical-offset="30472">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/css/base.css">
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/scheduleController.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="939" column="19" selection-start="10856" selection-end="10856" vertical-scroll-proportion="0.9142857" vertical-offset="23582" max-vertical-offset="30472">
+        <state line="3" column="16" selection-start="61" selection-end="68" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="416">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/controllers/auth-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="47" column="0" selection-start="1145" selection-end="1145" vertical-scroll-proportion="0.0" vertical-offset="741" max-vertical-offset="1820">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="322" column="41" selection-start="10048" selection-end="10054" vertical-scroll-proportion="9.568" vertical-offset="0" max-vertical-offset="10010">
           <folding />
         </state>
       </provider>
