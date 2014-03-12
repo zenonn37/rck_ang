@@ -9,23 +9,41 @@ angular.module('rck_app')
 
         $scope.revents = schService;
 
-        var authRef = new Firebase("https://rcks.firebaseio.com/schedule");
+        var dataRef = new Firebase("https://rcks.firebaseio.com/schedule");
 
-        $scope.authCheck = $firebaseSimpleLogin(authRef);
+                  $scope.loginObj = $firebaseSimpleLogin(dataRef);
 
-           if($scope.authCheck == null){
-              $location.path("/admin/login");
-           }
+                  var users = $scope.loginObj;
+
+
+                  console.log(users);
+
+                  if(!users){
+                       console.log("Checked loginObj"+users);
+                      $location.path('/');
+
+                  }
+
+
 
         $scope.data = "Admin Only";
 
 
 
-        var checkA = $scope.authCheck.$getCurrentUser();
+
+
 
 
 
         //add fire base push function
+
+                  $scope.checkUser = function(checkA){
+                          console.log("im working "+checkA);
+                         if(checkA == null){
+                             $location.path('/');
+                         }
+
+                  }
         $scope.addEvent = function(){
 
             $scope.revents.$add({

@@ -26,8 +26,8 @@
         <div class="row">
 
             <div class="col-md-4">
-                       <span data-ng-show="authCheck.user">
-  {{authCheck.user.email}} | <a href data-ng-click="authCheck.$logout()">Logout</a>
+                        <span ng-show="loginObj.user">
+  {{loginObj.user.email}} | <a href="#/" ng-click="loginObj.$logout()">Logout</a>
 </span>
 
                     <ul class="nav nav-pills">

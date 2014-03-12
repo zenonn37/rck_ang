@@ -8,18 +8,39 @@ angular.module("rck_app")
         function($scope,$location,
                  $firebaseSimpleLogin,SchService){
 
+                 $scope.revents = SchService;
+
                  var dataRef =  new Firebase("https://rcks.firebaseio.com/schedule");
 
                 $scope.loginObj = $firebaseSimpleLogin(dataRef);
 
                 $scope.data="Admin Login";
 
-            var paths = 'admin/dashboard/event';
 
 
 
 
-        $scope.login = function(){
+
+
+            $scope.addEvent = function(){
+
+                $scope.revents.$add({
+
+
+                    day:$scope.day,
+                    month:$scope.month,
+                    start:$scope.start,
+                    end:$scope.end,
+                    events:$scope.events
+
+                });
+                $scope.event="";
+
+            };
+
+
+
+            $scope.login = function(){
 
             $scope.loginObj.$login('password',{
 
