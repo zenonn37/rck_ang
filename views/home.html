@@ -1,0 +1,376 @@
+<!--Jumbo-->
+
+<div ng-controller="homeController">
+<div class="container-fluid">
+    <div class="jumbotron">
+
+
+
+        <div class="container">
+
+
+
+
+            <div class="headline text-center">
+                <h1 id="responsive_headline">Welcome to RC Kinetics, New York's Premier
+                    Indoor Racing Facility!  </h1>
+                   <a ui-sref="racing"class="btn btn-primary">Learn More</a>
+
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        </div><!--end container-->
+
+
+
+
+    </div><!--end jumbo-->
+</div>
+
+
+
+<div class="heroSub"></div>
+
+
+
+
+
+
+
+    <div class="services">
+        <div class="container">
+        <div class="row">
+
+            <h2 class="titles">Services
+                <div class="lines"></div>
+            </h2>
+
+
+            <div class="col-md-4">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <h3 class="titlesServices">Racing</h3>
+
+                    </div>
+                    <div class="panel-body">
+
+
+
+                        <h4>THE PLACE TO RACE</h4>
+                        <p>{{ racing }}</p>
+
+
+
+                        <a ui-sref="racing" class="service_anchors visible-sm  visible-xs">Racing<img src="image/arrow_icon_16.png"></a>
+
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+            <div class="col-md-4">
+
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <h3 class="titlesServices">Pro Shop</h3>
+
+                    </div>
+                    <div class="panel-body">
+
+
+
+                        <h4>RCK Hobby Shop</h4>
+                        <p>{{ pro }}</p>
+
+
+                        <a ui-sref="shop" class="service_anchors visible-sm  visible-xs">Hobby<img src="image/arrow_icon_16.png"></a>
+
+
+
+                    </div>
+
+                </div>
+
+            </div>
+
+
+
+
+
+
+
+
+            <div class="col-md-4">
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+
+                        <h3 class="titlesServices"> Entertainment</h3>
+
+                    </div>
+                    <div class="panel-body">
+
+
+
+                        <h4>Host Your Events</h4>
+                        <p>{{ event }} </p>
+
+
+                        <a href data-toggle="modal" data-target="#myModal" class="service_anchors visible-sm  visible-xs">Book An Event<img src="image/arrow_icon_16.png"></a>
+
+
+
+
+                    </div>
+
+                </div>
+            </div>
+
+
+
+
+        </div><!--end row--> <!--start hidden-->
+
+            <div class="row visible-md visible-lg">
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+
+
+
+
+
+
+                            <a ui-sref="racing" class="service_anchors">Racing<img src="image/arrow_icon_16.png"></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+
+
+
+
+
+
+                            <a ui-sref="shop" class="service_anchors">Hobby<img src="image/arrow_icon_16.png"></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="panel panel-default">
+
+                        <div class="panel-body">
+
+
+
+
+
+
+                            <a href data-toggle="modal" data-target="#myModal">Book An Event<img src="image/arrow_icon_16.png"></a>
+
+
+                        </div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+        </div>
+
+
+            </div>
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+</div><!--end container-->
+
+
+
+
+
+
+<!--start hobby-->
+<div class="hero3">
+
+
+
+
+</div>
+<div class="hero4">
+
+
+
+
+</div>
+
+
+
+<!--end hobby-->
+
+
+
+<!--staff-->
+
+
+
+
+
+
+
+
+<div class="container">
+    <div class="staff">
+        <div class="row">
+            <h2 class="titles">RCK Staff
+
+                <div class="lines"></div>
+
+            </h2>
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href ng-click="toggle = !toggle" class="thumbnail">
+                    <img src="image/alex_staff.png" alt="Alex RCK Owner">
+                        </a>
+
+                    <div class="caption">
+                        <h3 class="text-center"><a href ng-click="toggle = !toggle">Alex Kikel</a></h3>
+                        <h4  class="text-center">Owner
+                        </h4>
+
+                        <p ng-hide="toggle">Hi my name is Alex, I have been in the hobby since age 10!
+                            I competed across the nation and won multiple awards. Multiple TCS ( Tamiya Championship Series)
+                            top 3 finishes, including 1st place winner of the Formula 1 Classes. I am the owner of R/C Kinetics,
+                            if you need any pointers, help or just have any questions don't hesitate to ask. See you in the races! </p>
+                         </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href  class="thumbnail" ng-click="toggle2 = !toggle2">
+
+                    <img src="image/ben.jpg" alt="Ben">
+                        </a>
+                    <div class="caption">
+                        <h3 class="text-center">  <a href   ng-click="toggle2 = !toggle2">Ben Woodcock</a></h3>
+                        <h4  class="text-center">Manager & Race Director
+                        </h4>
+
+                        <p ng-hide="toggle2">
+
+                            I have been into RC since i was a little kid. I remember the first time I drove a RC car
+                            and
+                            the excitement and joy it brought me. Through the years I have been in and out of the hobby, as of about 2 years ago I got into racing after seeing a youtube video of Short Course RC racing. I then went to a local track to see what it was all about. I literally went from the track straight to the local hobby shop and bought a Team Associated SC10 4x4.
+
+                            Then a
+                            n
+                            opportunity knocked and here I am, managing 2 indoor rc tracks and a hobby shop and i could not be any happier!!!
+
+
+                        </p>
+                        </div>
+                </div>
+            </div>
+
+
+
+
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href ng-click="toggle3 = !toggle3" class="thumbnail">
+                     <img src="image/danny.png" alt="Danny RCK Marketing">
+                        </a>
+                    <div class="caption">
+                        <h3  class="text-center"><a href ng-click="toggle3 = !toggle3"> Danny Mejia</a></h3>
+                        <h4  class="text-center">Marketing
+                        </h4>
+
+                        <p ng-hide="toggle3">My names Danny, I work doing the digital and print work for facility.
+                            I also take care of some maintenance in the shop.
+                            Im new to the RC world, but eager to join in on the fun. </p>
+
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+<!--staff end-->
+
+
+
+
+<!--hero last-->
+<div class="hero_last">
+    <div class="action_hero">
+        <h2 class="text-center">Ready for Speed? <span>  <a href ng-click="contact_hero" data-toggle="modal" data-target="#myModal">Contact Us</a></span></h2>
+
+    </div>
+</div>
+<!--hero last end-->
+
+</div>
+
+
+
+
+<!--hero last-->

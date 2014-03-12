@@ -1,0 +1,98 @@
+<div class="schedule" >
+
+
+        <div class="mini text-center">
+            <div class="headline">
+
+            </div>
+
+        </div>
+
+
+
+
+</div>
+<div class="heroSub"></div>
+<div class="container">
+    <div class="party-page">
+
+
+
+
+
+
+        <div class="row" ng-controller="scheduleController">
+            <h2>Racing and Events</h2>
+
+                <table class="table table-striped table-responsive">
+
+                    <thead>
+                    <tr>
+
+                        <th>Month</th>
+                        <th>Day</th>
+                        <th>Start</th>
+                        <th>End</th>
+                        <th>Event</th>
+
+                    </tr>
+
+
+                    </thead>
+
+                    <tbody>
+
+                    <tr ng-repeat="schedule in schedules | limitTo: 10">
+
+                         <td>{{ schedule.month  }}</td>
+                        <td>{{ schedule.day  }}</td>
+                        <td>{{ schedule.start  }}</td>
+                        <td>{{ schedule.end  }}</td>
+                        <td>{{ schedule.events  }}</td>
+                    </tr>
+
+                    </tbody>
+
+
+                </table>
+
+
+
+
+        </div>
+
+    </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="services-page">
+    <div class="hero4">
+
+
+
+
+    </div>
+
+</div>
+
+
+
+
+<div class="services-page">
+    <div class="details">
+
+
+
+
+    </div>
+
+</div>
+
+
+
