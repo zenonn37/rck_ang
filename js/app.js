@@ -74,7 +74,7 @@ angular
 
                                         url:'/admin/dashboard',
                                         templateUrl:'admin/dashboard.html',
-                                        controller: 'schCtrl'
+                                        controller: 'authController'
 
                                     })
 
@@ -82,7 +82,7 @@ angular
 
                                         url:'/admin/dashboard/event',
                                         templateUrl:'admin/events.html',
-                                        controller: 'schCtrl'
+                                        controller: 'authController'
 
                                     })
 
@@ -90,7 +90,7 @@ angular
 
                                         url:'/admin/dashboard/messages',
                                         templateUrl:'admin/message.html',
-                                        controller: 'schCtrl'
+                                        controller: 'authController'
 
                                     })
 

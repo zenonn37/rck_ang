@@ -3,47 +3,49 @@
  */
 
 angular.module('rck_app')
-    .controller('schCtrl',['$scope','SchService','$firebaseSimpleLogin',"$location",
+    .controller('schCtrl',['$scope','SchService','$location','LoginService',
 
-              function($scope,schService,$firebaseSimpleLogin,$location){
+              function($scope,schService,$location,LoginService){
 
         $scope.revents = schService;
 
-        var dataRef = new Firebase("https://rcks.firebaseio.com/schedule");
+                  $scope.loginObj = LoginService;
 
-                  $scope.loginObj = $firebaseSimpleLogin(dataRef);
-
-                  var users = $scope.loginObj;
-
-
-                  console.log(users);
-
-                  if(!users){
-                       console.log("Checked loginObj"+users);
-                      $location.path('/');
-
-                  }
-
+                  //console.log(pageAuth+"testing log");
 
 
         $scope.data = "Admin Only";
 
 
+                  $scope.getUser = function(){
+                         //console.log("function called");
+                      $scope.loginObj.$getCurrentUser()
+
+                          .then(function(user){
+                             // console.log("promise");
+
+                              if(user){
+                                  //console.log("Authenticated "+ user.email);
+                              }else{
+                                  //console.log("Not Authenticated");
+                                  $location.path('/');
+                              }
+                          },function(error){
+                             // console.log("not logged in "+ error);
+                          });
+
+                  };
+
+                  $scope.getUser();
 
 
 
 
 
 
-        //add fire base push function
 
-                  $scope.checkUser = function(checkA){
-                          console.log("im working "+checkA);
-                         if(checkA == null){
-                             $location.path('/');
-                         }
 
-                  }
+
         $scope.addEvent = function(){
 
             $scope.revents.$add({

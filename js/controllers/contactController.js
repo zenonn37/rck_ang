@@ -4,9 +4,11 @@
 
 angular.module('rck_app')
 
-    .controller('contactController',['$scope','ContactService',function($scope,ContactService){
+    .controller('contactController',['$scope','ContactService','LoginService','$location'
+        ,function($scope,ContactService,LoginService,$location){
 
         $scope.contacts = ContactService;
+        $scope.loginObj = LoginService;
 
 
         //contstruct contact submit function
@@ -24,5 +26,26 @@ angular.module('rck_app')
 
 
         $scope.data = "Contact us";
+
+        $scope.getUser = function(){
+            //console.log("function called");
+            $scope.loginObj.$getCurrentUser()
+
+                .then(function(user){
+                    //console.log("promise");
+
+                    if(user){
+                        //console.log("Authenticated "+ user.email);
+                    }else{
+                        //console.log("Not Authenticated");
+                        $location.path('/');
+                    }
+                },function(error){
+                    //console.log("not logged in "+ error);
+                });
+
+        };
+
+        $scope.getUser();
 
     }]);

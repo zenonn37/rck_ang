@@ -4,17 +4,25 @@
 
 angular.module("rck_app")
 
-    .controller("authController",["$scope","$location","$firebaseSimpleLogin","SchService",
+    .controller("authController",["$scope","$location","LoginService","SchService",
         function($scope,$location,
-                 $firebaseSimpleLogin,SchService){
+                 LoginService,SchService){
 
-                 $scope.revents = SchService;
+                 //var logged  = LoginService;
+                 $scope.loginObj = LoginService;
 
-                 var dataRef =  new Firebase("https://rcks.firebaseio.com/schedule");
+                 //$scope.revents = SchService;
 
-                $scope.loginObj = $firebaseSimpleLogin(dataRef);
 
-                $scope.data="Admin Login";
+                 //var dataRef =  new Firebase("https://rcks.firebaseio.com/schedule");
+
+                //$scope.loginObj = $firebaseSimpleLogin(dataRef);
+           // var logged =  $scope.loginObj;
+
+                $scope.data="Admin Dashboard for RCK";
+
+              //console.log(logged);
+
 
 
 
@@ -38,6 +46,24 @@ angular.module("rck_app")
 
             };
 
+            $scope.getUser = function(){
+
+                $scope.loginObj.$getCurrentUser()
+
+                    .then(function(user){
+                        console.log("im logged in "+ user.uid);
+
+                        if(user){
+                            console.log("logged in "+ user.email);
+                        }
+                    },function(error){
+                       console.log("not logged in "+ error);
+                    });
+
+            };
+
+
+
 
 
             $scope.login = function(){
@@ -50,10 +76,10 @@ angular.module("rck_app")
 
 
             }).then(function(user){
-                  console.log('logged in as:' + user.uid);
+                 // console.log('logged in as:' + user.uid);
                     //$location.path('/admin/dashboard/event');
                     if(user){
-                       console.log("logged in");
+                       //console.log("logged in");
                         $location.path("/admin/dashboard");
                        // $scope.loginChange(paths);
                     }
@@ -62,7 +88,7 @@ angular.module("rck_app")
 
                 },function(error){
 
-                console.log('log in fail:' + error);
+              //  console.log('log in fail:' + error);
             });
 
 
@@ -78,7 +104,7 @@ angular.module("rck_app")
         }//end login function
 
 
-
+           // $scope.getUser();
 
          }
 
