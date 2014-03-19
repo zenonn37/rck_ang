@@ -968,7 +968,7 @@ footer h6{
 
 
 
-@media(max-width:480px){
+@media screen and (max-width : 500px){
 
 
 
@@ -983,19 +983,29 @@ footer h6{
         background-color: transparent;
     }
 
-    .jumbotron {
 
 
+
+    .jumbotron{
+
+        background: #fff url(image/mast_hero.jpg) 90% 50% no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size:cover;
         max-height: 400px;
         padding: 60px 0;
         margin: 0;
+
     }
+
+
 
 
 
     .jumbotron .heroHold {
         max-height: 600px;
-        max-width: 320px;
+        max-width: 420px;
         min-width: 300px;
         padding: 10px;
         margin-bottom: 20px;
@@ -1106,6 +1116,7 @@ footer h6{
 
 
 }
+
 
 
 
