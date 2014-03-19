@@ -5,7 +5,7 @@
 
 
 body{
-    font-family:'Raleway', helvetica, arial;
+    font-family:Helvetica Neue, helvetica, arial,sans-serif;
     font-size:16px;
     color:#666666;
     background-color:#282b2d;
@@ -18,8 +18,12 @@ body{
 h1,h2,h3,h4,h5,h6{
     color: #333333;
     text-transform: uppercase;
-    font-family: 'Raleway',Helvectica,Arial;
+    font-family: 'Raleway',Helvectica,Arial,sans-serif;
     font-weight: 700;
+}
+
+address{
+    font-family: Helvetica Neue, Helvetica, Arial,sans-serif;
 }
 
 p{

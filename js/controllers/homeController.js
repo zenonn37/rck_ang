@@ -9,11 +9,11 @@ angular.module('rck_app')
 
         $scope.title = "RC Kinetics";
 
-        $scope.racing = "RCK offers a 15,000 square foot facility with an asphalt and dirt track.";
+        $scope.racing = "RCK offers a 15,000 square foot indoor facility with an asphalt on-road and off-road clay track.";
 
         $scope.pro = "New RC Cars and Trucks, Parts, Accessories, Repairs, and rentals.";
 
-        var events = $scope.event = "Our lounge area has arcades and we offer Hosting Events for your Birthday Parties and Businesses.";
+        var events = $scope.event = "Our lounge area features  arcades as well as vending machine and concession stands. We offer Hosting Events for your Birthday Parties and Businesses.";
         //console.log(events.length);
         $scope.toggle = true;
         $scope.toggle2 = true;
