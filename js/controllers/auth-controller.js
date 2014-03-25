@@ -46,21 +46,7 @@ angular.module("rck_app")
 
             };
 
-            $scope.getUser = function(){
 
-                $scope.loginObj.$getCurrentUser()
-
-                    .then(function(user){
-                        console.log("im logged in "+ user.uid);
-
-                        if(user){
-                            console.log("logged in "+ user.email);
-                        }
-                    },function(error){
-                       console.log("not logged in "+ error);
-                    });
-
-            };
 
 
 
@@ -76,8 +62,8 @@ angular.module("rck_app")
 
 
             }).then(function(user){
-                 // console.log('logged in as:' + user.uid);
-                    //$location.path('/admin/dashboard/event');
+                 // console.log('logged);
+
                     if(user){
                        //console.log("logged in");
                         $location.path("/admin/dashboard");
@@ -104,7 +90,7 @@ angular.module("rck_app")
         }//end login function
 
 
-           // $scope.getUser();
+
 
          }
 

@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="db27cb32-54f5-4151-8f08-8e494a620026" name="Default" comment="hotel work">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/base.css" afterPath="$PROJECT_DIR$/css/base.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers/auth-controller.js" afterPath="$PROJECT_DIR$/js/controllers/auth-controller.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="rck.iws" />
@@ -30,7 +29,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="229" column="0" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.6014068" vertical-offset="5670" max-vertical-offset="10503">
+            <state line="226" column="58" selection-start="7111" selection-end="7111" vertical-scroll-proportion="8.731055" vertical-offset="0" max-vertical-offset="10114">
               <folding />
             </state>
           </provider>
@@ -39,7 +38,7 @@
       <file leaf-file-name="base.css" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/base.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="995" column="26" selection-start="11654" selection-end="11654" vertical-scroll-proportion="0.0" vertical-offset="26435" max-vertical-offset="32049">
+            <state line="1005" column="26" selection-start="11737" selection-end="11737" vertical-scroll-proportion="0.0" vertical-offset="26130" max-vertical-offset="30862">
               <folding />
             </state>
           </provider>
@@ -48,7 +47,7 @@
       <file leaf-file-name="events.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/events.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="39" selection-start="40" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="27" max-vertical-offset="4779">
+            <state line="1" column="39" selection-start="40" selection-end="47" vertical-scroll-proportion="0.0" vertical-offset="26" max-vertical-offset="4602">
               <folding />
             </state>
           </provider>
@@ -57,7 +56,7 @@
       <file leaf-file-name="contactController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/contactController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="51" column="0" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0" vertical-offset="1377" max-vertical-offset="1539">
+            <state line="51" column="0" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="1482">
               <folding />
             </state>
           </provider>
@@ -66,16 +65,7 @@
       <file leaf-file-name="message.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/admin/message.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="108" max-vertical-offset="1971">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/views/home.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="337" column="93" selection-start="6968" selection-end="6968" vertical-scroll-proportion="0.0" vertical-offset="9099" max-vertical-offset="10287">
+            <state line="4" column="29" selection-start="109" selection-end="109" vertical-scroll-proportion="0.0" vertical-offset="104" max-vertical-offset="1898">
               <folding />
             </state>
           </provider>
@@ -84,7 +74,7 @@
       <file leaf-file-name="homeController.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/js/controllers/homeController.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="864">
+            <state line="10" column="0" selection-start="207" selection-end="207" vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="832">
               <folding />
             </state>
           </provider>
@@ -93,7 +83,7 @@
       <file leaf-file-name="racing.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/racing.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="1350" max-vertical-offset="3672">
+            <state line="50" column="0" selection-start="950" selection-end="950" vertical-scroll-proportion="0.0" vertical-offset="1300" max-vertical-offset="3536">
               <folding />
             </state>
           </provider>
@@ -102,7 +92,7 @@
       <file leaf-file-name="shop.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/shop.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="117" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.0" vertical-offset="1863" max-vertical-offset="3537">
+            <state line="69" column="117" selection-start="1826" selection-end="1826" vertical-scroll-proportion="0.0" vertical-offset="1794" max-vertical-offset="3406">
               <folding />
             </state>
           </provider>
@@ -111,7 +101,7 @@
       <file leaf-file-name="about.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/views/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="37" column="82" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="999" max-vertical-offset="1917">
+            <state line="37" column="82" selection-start="884" selection-end="884" vertical-scroll-proportion="0.0" vertical-offset="962" max-vertical-offset="1846">
               <folding />
             </state>
           </provider>
@@ -174,21 +164,21 @@
         <option value="$PROJECT_DIR$/js/services/contact.js" />
         <option value="$PROJECT_DIR$/js/controllers/schCtrl.js" />
         <option value="$PROJECT_DIR$/js/controllers/contactController.js" />
-        <option value="$PROJECT_DIR$/js/controllers/auth-controller.js" />
         <option value="$PROJECT_DIR$/js/controllers/homeController.js" />
         <option value="$PROJECT_DIR$/views/racing.html" />
         <option value="$PROJECT_DIR$/views/about.html" />
         <option value="$PROJECT_DIR$/views/shop.html" />
         <option value="$PROJECT_DIR$/css/base.css" />
         <option value="$PROJECT_DIR$/index.html" />
+        <option value="$PROJECT_DIR$/js/controllers/auth-controller.js" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -230,7 +220,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rck_v2" />
+              <option name="myItemId" value="rck_final" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -240,11 +230,43 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="rck_v2" />
+              <option name="myItemId" value="rck_final" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="css" />
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="rck_final" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -261,7 +283,7 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../ng-book" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../muscle_flow" />
     <property name="WebServerToolWindowPanel.toolwindow.show.size" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.date" value="false" />
     <property name="WebServerToolWindowPanel.toolwindow.show.permissions" value="false" />
@@ -367,14 +389,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1616" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3294271" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12006319" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.11969601" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -383,13 +405,13 @@
       <window_info id="File Transfer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12223393" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32982087" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Remote Host" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2859375" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -496,9 +518,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="2782">
-          <folding />
-        </state>
+        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="2782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.html">
@@ -551,9 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2889">
-          <folding />
-        </state>
+        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2889" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.html">
@@ -606,9 +624,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2889">
-          <folding />
-        </state>
+        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1215" max-vertical-offset="2889" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/views/home.html">
@@ -625,9 +641,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/admin/login.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="2782">
-          <folding />
-        </state>
+        <state line="60" column="76" selection-start="1468" selection-end="1577" vertical-scroll-proportion="0.0" vertical-offset="1560" max-vertical-offset="2782" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
@@ -669,11 +683,6 @@
         <state line="51" column="0" selection-start="1307" selection-end="1307" vertical-scroll-proportion="0.0" vertical-offset="1326" max-vertical-offset="1482">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers/auth-controller.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="74" column="0" selection-start="1666" selection-end="1666" vertical-scroll-proportion="0.0" vertical-offset="1924" max-vertical-offset="3042" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/controllers/schCtrl.js">
@@ -718,14 +727,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/base.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="995" column="26" selection-start="11654" selection-end="11654" vertical-scroll-proportion="0.0" vertical-offset="26435" max-vertical-offset="32049">
+        <state line="1005" column="26" selection-start="11737" selection-end="11737" vertical-scroll-proportion="0.0" vertical-offset="26130" max-vertical-offset="30862">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/controllers/auth-controller.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="92" column="0" selection-start="1651" selection-end="1651" vertical-scroll-proportion="2.8751733" vertical-offset="319" max-vertical-offset="2678">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="229" column="0" selection-start="7236" selection-end="7236" vertical-scroll-proportion="0.6014068" vertical-offset="5670" max-vertical-offset="10503">
+        <state line="226" column="58" selection-start="7111" selection-end="7111" vertical-scroll-proportion="8.731055" vertical-offset="0" max-vertical-offset="10114">
           <folding />
         </state>
       </provider>
